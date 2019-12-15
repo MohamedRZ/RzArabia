@@ -1,0 +1,401 @@
+/* Aqui tenemos un fondo de dos tonalidades */
+body {
+	background-image: linear-gradient( white , #eaeaea );
+}
+/* Alineamos los h2 centrados. */
+h1 {
+	text-align: center;
+	color: #d55118 ;
+}
+
+/* Aqui le damos un color de fondo al id */
+#navbardiv {
+	background-color:#ffe4c6;
+}
+/* Aqui le damos un color de fondo al id */
+#navdiv {
+	background-color:#ffe4c6;
+}
+/* Ajustamos el tamaño del logotipo */
+#logoimg {
+	width: 130px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
+/* Aqui le damos un color de fondo  tipo de letra y tamaño al id */
+#desp {
+	background-color: #78909c;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 120px;
+}
+/* Aqui le damos un color de fondo  tipo de letra y tamaño al id */
+#navB {
+	background-color: #ffe4c6;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+/* Aqui le damos un tipo de letra y tamaño al id */
+#navBB {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12px;
+}
+/* Aqui le damos un tipo de letra y tamaño al id */
+#navBBB {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2E2E2E;
+	font-size: 12px;
+	background-color:  #f8c471;
+	border-color:  #f8c471;
+}
+/*Aqui ajustamos el alto y el ancho de la imagen del id */
+
+#imagenimg {
+	width:600px;
+	height: 700px;
+	margin-left: -30%;
+	margin-right: -30%;
+	border-color:#ffe4c6;
+	background-color:#ffe4c6;
+
+}
+#imagenimgC {
+	width:300px;
+	height: 400px;
+	margin-left: -30%;
+	margin-right: -30%;
+	border-color:#AAAAAA;
+	background-color:#F3E2A9;
+
+}
+
+
+
+/* Aqui ajustamos los margenes y el fondo del id slider*/
+#slider {
+	margin-top: 0%;
+	margin-bottom: 1%;
+	padding-bottom: 1%;
+	padding-top: 0%;
+	background-color: #ffe4c6;
+}
+
+
+body { background-color: #fff; color: #000; padding: 0; margin: 0; }
+.container { width: 900px; margin: auto; padding-top: 1em; }
+.container .ism-slider { margin-left: auto; margin-right: auto; }
+
+
+
+/*Aqui ajustamos margen interio el tipo de letra y el fondo con dos tonalidades */
+#destacado {
+
+	font-family: 'Staatliches', cursive;
+	padding-bottom: 0%;
+	padding-right: 0.3%;
+	padding-left: 0.3%;
+	padding-top: 0%;
+}
+
+/* Aqui le damos un tipo de letra y tamaño al id */
+#navbar {
+
+	font-family: 'Josefin Sans', sans-serif; font-size: 14px;
+
+}
+
+/* Aqui le damos un tipo de letra y tamaño al id */
+#nav {
+	margin-top: 1%;
+	font-family: 'Josefin Sans', sans-serif; font-size: 12px;	
+}
+
+/* Aqui le damos un fondo con dos tonalidades un tipo de letra y un margen
+interior al id */
+#destacados {
+
+	background-image: linear-gradient(#4dd0e1, #00acc1);
+	font-family: 'Staatliches', cursive;
+	padding-bottom: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+	padding-top: 0%;
+
+}
+
+/* Aqui le damos un fondo con dos tonalidades un tipo de letra y un margen
+interior al id */
+#destacados3 {
+
+	background-image: linear-gradient(#00acc1, #006064);
+	font-family: 'Staatliches', cursive;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+
+}
+/*Ajustamos el tamaño del id */
+#fti {
+	width:20px;
+}
+/* le damos un color de fondo y un color de letra en blanco*/
+#nosotros {
+	background-color: #2E2E2E;
+	color: white;
+}
+
+/*le damos un color de fondo al class*/
+.thumbnail {
+	border-color: black;
+}
+/* Le damos un color tamaño y un margen a los siguiente ids*/
+#errorFin, #errorNom, #errorApe, #errorUsu, #errorEma, #errorCon, #errorConR, #errorCuen ,#errorDni ,#errorTel, #errorFinA, #errorNomA, #errorApeA, #errorUsuA, #errorEmaA, #errorConA, #errorConRA, #errorCuenA ,#errorDniA ,#errorTelA {
+	color: red;
+	font-size: 14px;
+	margin-left: 5%;
+
+}
+
+/*********************************************************************************
+**********************************************************************************
+*********************************************************************************/
+/*Le damos un color de fondo un margen negativo y un margen interno */
+
+#footfoot{
+	background-color:;
+	background-image: linear-gradient(#ffe4c6 ,#EA8D4D);
+	padding-bottom: 1%;
+}
+
+/*le damos un margen al class*/
+.copyrights{
+margin-top:25px;
+}
+/*le damos un color de fondo*/
+footer.container-fluid.text-center.foot {
+    background: #383838;
+}
+/*le damos un borde solido y un color al borde*/
+.dark-line{
+border-top: 1px solid black;
+}
+ /* le damos un color al class*/
+.white-txt{
+color: black;
+}
+
+/* le damos un color a la letra un borde solid con color y margen interno
+*/
+a.link {
+    color: black;
+    border: 1px black solid;
+    padding: 5px;
+    text-decoration: none;
+}
+/*Color al fondo y a la letra*/
+a.link:hover {
+background: #ffe4c6;
+    color: #b41a1a;
+}
+
+a.nav-link {
+    color: black;
+}
+/*Color al fondo y a la letra*/
+a.nav-link:hover {
+    color: #b41a1a;
+}
+
+a.active {
+    color: #B40404;
+    font-weight: bold;
+}
+
+/*Tamaño de la imagen del class*/
+.footimg{
+width: 180px;
+margin-top: -25px;
+margin-bottom: -30px;
+}
+
+.footimgC{
+width: 40px;
+margin-top: -35px;
+margin-bottom: -30px;
+margin-right: 5%;
+}
+
+/*Tamaño y margenes de la imagen de salir de sesion*/
+#imgexit {
+	width: 25px;
+	padding-top: -10%;
+	margin-right: 20px;
+	padding-left: -20px;
+}
+
+#imgmod {
+	width: 40px;
+	margin-left: 10px;
+	margin-bottom: 8px;
+	padding-left:;
+}
+/* Color de letra tipo de letra tamaño y margenes del id*/
+#NSesion {
+	color: black;
+	font-family: algerian;
+	font-size: 18px;
+	padding-bottom: -20%;
+	margin-right: 2%;
+}
+
+/*Tamaño de margenes del id*/
+#rss {
+	width: 70px;
+	padding-top: -30%;
+	margin-top: -30px;
+	padding-bottom: -30%;
+	margin-bottom: -30px;
+}
+/*Fondo borde y margenes de los comentarios*/
+#coment {
+	background-color: white;
+	border-radius: 10%;
+	padding: 3% 3% 3% 3%;
+}
+
+
+#imagenpppp {
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	margin-left: 2%;
+}
+
+#idpp {
+	text-align: center;
+	width: 4%;
+	margin-left: 1px;
+	height: 50px;
+}
+
+#nombrepp {
+	text-align: center;
+	width: 13%;
+	margin-left: 1px;
+	height: 50px;
+}
+
+#preciopp {
+	text-align: center;
+	width: 7%;
+	margin-left: 1px;
+	height: 50px;
+}
+
+#unidadespp {
+	text-align: center;
+	width: 7%;
+	margin-left: 1px;
+	height: 50px;
+}
+
+#descripcionpp {
+	text-align: center;
+	width: 25%;
+	margin-left: 1px;
+	height: 50px;
+}
+
+
+#categoriapp {
+	text-align: center;
+	width: 25%;
+	margin-left: 1px;
+	height: 50px;
+	margin-bottom: -3.03%;
+}
+
+#imagenpp {
+	width: 100px;
+	height: 100px;
+	margin-left: 2%;
+}
+
+#idp {
+	text-align: center;
+	width: 4%;
+	margin-left: 5px;
+	height: 50px;
+}
+
+#nombrep {
+	text-align: center;
+	width: 13%;
+	margin-left: 5px;
+	height: 50px;
+}
+
+#preciop {
+	text-align: center;
+	width: 7%;
+	margin-left: 5px;
+	height: 50px;
+}
+
+#unidadesp {
+	text-align: center;
+	width: 7%;
+	margin-left: 5px;
+	height: 50px;
+}
+
+#descripcionp {
+	text-align: center;
+	width: 25%;
+	margin-left: 5px;
+	height: 50px;
+}
+
+
+
+#categoriap {
+	text-align: center;
+	width: 25%;
+	margin-left: 5px;
+	height: 50px;
+	margin-bottom: -3.03%;
+}
+
+
+
+
+/* Style tab links */
+.tablink {
+  background-color: #EA8D4D;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #B45F04;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Ropa {background-color: #F3E2A9;}
+#Calzado {background-color: #F3E2A9;}
+#Pantalones {background-color: #F3E2A9;}
+#Complementos {background-color: #F3E2A9;}
+
