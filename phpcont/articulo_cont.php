@@ -9,6 +9,7 @@ if(isset($_GET['ident'])){
 	$id = $_GET['ident'];
 };
 
+
 $sql = "SELECT * FROM producto WHERE Producto_ID = $id ";
 
 $sqlc = "SELECT * FROM comentario WHERE Producto_Producto_ID = $id ";
@@ -38,8 +39,10 @@ $resultadocc = $conn->query($sqlcc);
 					  			echo '<img id="imagenimgC" class="img-thumbnail" src="imagencont/'.$row['Imagen'].'"></a>';
 					  			echo '<div class="overlayC">';
 					  				echo '<h2><img class="footimgC" src="logo\logo_sin_fondo.png" alt="Logo">'.$row['Nombre'].'</h2>';
-					          		echo '<a class="infoC">Comprar '.$row['Precio'].' €</a>';
-					          		echo '<a class="infoC" style="margin-left: 2%;" href="realizar_comentario.php?ident='.$row["Producto_ID"].'">Comentar</a>';
+									echo '<a class="infoC">Comprar '.$row['Precio'].' €</a>';
+									if (!empty($_SESSION["Nombre"])){
+									  echo '<a class="infoC" style="margin-left: 2%;" href="realizar_comentario.php?ident='.$row["Producto_ID"].'">Comentar</a>';
+									}
 					        	echo '</div>';
 				        	echo '</div>';
 				  		echo '</article>';
@@ -49,16 +52,13 @@ $resultadocc = $conn->query($sqlcc);
 	        	?>
 	        	<?php
 
-	        	if ($resultadocc->num_rows > 0) {
-
-	        		while($row = $resultadocc->fetch_assoc()) {
+	        	
 
 					        	echo '<div id="aruno" class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">';
 						        	echo '<article>';
-						  				echo '<h2>'.$row['Usuario_Nick'].'</h2>';
+						  				echo '<h2>Comentarios</h2>';
 						  				echo '<hr>';
-						  			}
-						  		}
+						  		
 		  		if ($resultadoc->num_rows > 0) {
 
 	        		while($row = $resultadoc->fetch_assoc()) {
@@ -75,7 +75,7 @@ $resultadocc = $conn->query($sqlcc);
 	        		while($row = $resultadocc->fetch_assoc()) {
 
 	        							echo '<hr>';
-						  				echo '<h4>'.$row['Nombre'].'</h4>';
+						  				echo '<h4></h4>';
 						  				echo '</hr>';
 							  		echo '</article>';
 							  	echo '</div>';
